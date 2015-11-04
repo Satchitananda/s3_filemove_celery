@@ -17,6 +17,7 @@ TO = 'bucket to move files to'
 ```
 
 Set up your PostgreSQL database and change settings.py accordingly
+
 Run celery worker with command
 ```
 celery -A s3_filemove_celery worker -l info
