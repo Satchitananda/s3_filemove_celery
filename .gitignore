@@ -101,6 +101,7 @@ coverage.xml
 *.log
 
 # Sphinx documentation
+/s3_filemove_celery/settings_local.py
 docs/_build/
 
 # PyBuilder
